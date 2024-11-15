@@ -54,10 +54,10 @@
 ## **Screenshots**
 
 ### **From Tools Select Generate Architecture**  
-<img src="src/main/resources/assets/screenShot1.png" alt="Architecture Dialog" width="659"/>
+<img src="src/main/resources/assets/screenShot1.png" alt="Architecture Dialog" width="772"/>
 
 ### **Architecture Dialog Selection**  
-<img src="src/main/resources/assets/screenShot2.png" alt="Generated Structure" width="772"/>
+<img src="src/main/resources/assets/screenShot2.png" alt="Generated Structure" width="659"/>
 
 ### **Generated Project Structure**
 <img src="src/main/resources/assets/screenShot3.png" alt="Generated Structure" width="600"/>
