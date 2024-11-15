@@ -1,0 +1,50 @@
+<!-- Plugin Configuration File. Read more: https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html -->
+<idea-plugin>
+
+    <!-- Unique identifier of the plugin. Should be fully qualified and remain consistent across versions -->
+    <id>com.wahid.GenArch</id>
+
+    <!-- Public plugin name, displayed in the Plugin Manager and Plugin Marketplace -->
+    <name>GenArch</name>
+
+    <version>1.0</version>
+
+    <!-- Vendor information -->
+    <vendor email="wahidqandill@gmail.com" url="https://www.linkedin.com/in/wahid-qandil/">Wahid Ali</vendor>
+
+    <!-- Description of the plugin -->
+    <description>
+        <![CDATA[
+        Generates project structure based on selected architecture (MVC, MVVM, Clean Architecture).
+        ]]>
+    </description>
+
+    <!-- Action Registration -->
+    <actions>
+
+        <group
+                id="GenerateArchitectureAction"
+                text="Generate Architecture"
+                description="Generate project structure based on architecture"
+            >
+
+            <action id="demo"
+                    class="com.wahid.genarch.genarch.GenerateArchitectureAction"
+                    text="Generate Architecture"
+                    description="Generate project structure based on architecture"
+                    icon="AllIcons.Actions.GeneratedFolder">
+                <add-to-group group-id="ToolsMenu" anchor="first"/>
+            </action>
+        </group>
+    </actions>
+
+    <!-- Declare compatibility with IntelliJ platform -->
+    <depends>com.intellij.modules.platform</depends>
+    <depends>com.intellij.modules.all</depends>
+
+
+    <!-- Extension points (add if your plugin extends IDE components) -->
+    <extensions defaultExtensionNs="com.intellij">
+        <!-- Add extensions here as needed -->
+    </extensions>
+</idea-plugin>
