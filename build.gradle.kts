@@ -16,6 +16,7 @@ repositories {
 intellij {
     version.set("2023.1.5")
     type.set("IC") // Target IDE Platform
+    pluginName.set("GenArch")
 
     plugins.set(listOf(/* Plugin Dependencies */))
 }

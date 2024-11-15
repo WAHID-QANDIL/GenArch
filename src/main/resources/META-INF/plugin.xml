@@ -21,13 +21,11 @@
 
     <!-- Action Registration -->
     <actions>
-
         <group
                 id="GenerateArchitectureAction"
                 text="Generate Architecture"
                 description="Generate project structure based on architecture"
             >
-
             <action id="demo"
                     class="com.wahid.genarch.genarch.GenerateArchitectureAction"
                     text="Generate Architecture"

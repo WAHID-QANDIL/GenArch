@@ -5,7 +5,7 @@ import com.intellij.openapi.vfs.VirtualFile
 import com.intellij.psi.PsiManager
 
 class ProjectStructureGenerator(private val event: AnActionEvent) {
-    fun generate(architecture: String, packageName: String) {
+    fun generate(architecture: String?, packageName: String) {
         val project = event.project ?: return
         val psiManager = PsiManager.getInstance(project)
         val baseDir = project.baseDir

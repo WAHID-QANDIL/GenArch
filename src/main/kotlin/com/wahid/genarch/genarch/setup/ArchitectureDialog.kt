@@ -1,12 +1,13 @@
 package com.wahid.genarch.genarch.setup
 
+import com.intellij.openapi.ui.ComboBox
 import com.intellij.openapi.ui.DialogWrapper
 import javax.swing.*
 import java.awt.BorderLayout
 
 class ArchitectureDialog : DialogWrapper(true) {
     private val packageNameField = JTextField()
-    private val architectureDropdown = JComboBox(arrayOf("MVVM", "MVC", "Clean Architecture"))
+    private val architectureDropdown = ComboBox(arrayOf("MVVM", "MVC", "Clean Architecture"))
 
     init {
         init()
@@ -27,6 +28,6 @@ class ArchitectureDialog : DialogWrapper(true) {
     }
 
     fun getPackageName(): String = packageNameField.text
-    fun getSelectedArchitecture(): String = architectureDropdown.selectedItem.toString()
+    fun getSelectedArchitecture(): String? = architectureDropdown.selectedItem?.toString()
 }
 
