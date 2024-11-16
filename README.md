@@ -1,7 +1,7 @@
 
 # **GenArch**  
 
-[![JetBrains Plugins](https://img.shields.io/jetbrains/plugin/v/com.example.yourplugin.svg)](https://plugins.jetbrains.com/plugin/25849-genarch/reviews?noRedirect=true)  
+[![JetBrains Plugins](https://img.shields.io/badge/JETBRAINS-GET-blue)](https://plugins.jetbrains.com/plugin/25849-genarch/reviews?noRedirect=true)  
 [![JetBrains Downloads](https://img.shields.io/jetbrains/plugin/d/com.example.yourplugin.svg)](https://plugins.jetbrains.com/plugin/com.wahid.GenArch)
 
 **GenArch** is a JetBrains IDE plugin that helps developers quickly generate project structures (e.g., MVVM, MVC, Clean Architecture) with ease. Save time and focus on writing code, not boilerplate.
